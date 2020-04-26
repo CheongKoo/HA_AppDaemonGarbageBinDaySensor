@@ -2,6 +2,7 @@
 Appdaemon program to show a sensor in Hass.IO for garbage bin type in next collection cycle
 
 ![Image of Tile](https://github.com/CheongKoo/HA_AppDaemonGarbageBinDaySensor/blob/master/img/GarbageBinTile.png)
+
 ![Image of popup](https://github.com/CheongKoo/HA_AppDaemonGarbageBinDaySensor/blob/master/img/Garbage%20Bin%20sensor%20details%20popup.png)
 
 ## Notes
@@ -32,7 +33,8 @@ Modify the function setupBins(). In the below example, I've added two bin types 
 ```
 
 ## Modify the sensor values
-![Image of sensor values](https://github.com/CheongKoo/HA_AppDaemonGarbageBinDaySensor/blob/master/img/Garbage%20Bin%20sensor%20details.png) 
+![Image of sensor values](https://github.com/CheongKoo/HA_AppDaemonGarbageBinDaySensor/blob/master/img/Garbage%20Bin%20sensor%20details.png)
+
 To change the sensor values, modify the contents of the variables below.
 
 ``` python
